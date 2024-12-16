@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 
 # CongressData: A Functional Tool for the CongressData Dataset<img src="figures/CongressData.png" height="150" align="right"/>
 
-`CongressData` is a package designed to allow a user with only basic knowledge of R interact with **CongressData**, a dataset with nearly 800 variables that compiles information about all US congressional districts across 1789-2023, and its codebook. The dataset tracks district characteristics, members of congress, and the behavior of those members in policymaking. Users can find variables related to demographics, politics, and policy; subset the data across multiple dimensions; create custom aggregations of the dataset; and access citations in both plain text and BibTeX for every variable.
+`CongressData` is a package designed to allow a user with only basic knowledge of R interact with **CongressData**, a dataset with over 1000 variables that compiles information about all US congressional districts across 1789-2023, and its codebook. The dataset tracks district characteristics, members of congress, and the behavior of those members in policymaking. Users can find variables related to demographics, politics, and policy; subset the data across multiple dimensions; create custom aggregations of the dataset; and access citations in both plain text and BibTeX for every variable.
 
 ## Installing this Package
 
@@ -107,9 +107,9 @@ get_var_info(var_names = "percent_bus") %>%
 
 ## Dataset and Package Citation
 
-In addition to citing each variable's source, we ask that you cite CongressData if use this package or the dataset. A recommended citation is below.
+In addition to citing each variable's source, we ask that you cite CongressData if use this package or the dataset:
 
-> Grossmann, M., Lucas, C., McCrain, J, & Ostrander, I. (2022). CongressData. East Lansing, MI: Institute for Public Policy and Social Research (IPPSR)
+> Grossmann, Matt, Caleb Lucas, and Benjamin Yoel. Introducing CongressData and Correlates of State Policy. East Lansing, MI: Institute for Public Policy and Social Research (IPPSR), 2024.
 
 ## Contact
 
